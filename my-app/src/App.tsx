@@ -1,6 +1,6 @@
-import { ThemeProvider, Typography } from '@mui/material';
-import { Menu } from './components/Menu';
-import theme from './theme';
+import { ThemeProvider, Typography } from "@mui/material";
+import { Menu } from "./components/Menu";
+import theme from "./theme";
 
 function App() {
   return (
