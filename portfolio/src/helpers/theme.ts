@@ -10,9 +10,8 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: '""Helvetica"', // Change this to your desired font family
+    fontFamily: '""Helvetica"', 
   },
-  // Add more customization here as needed
 });
 
 export default theme;

@@ -8,14 +8,8 @@ body {
 }
 
 h1 {
-  font-size: 6em;
+  font-size: calc(16px + 3vw) !important;
   color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  position: absolute;
-}
-
-@media (max-width: 600px) {
-  h1 {
-    font-size: 3em;
-  }
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+  position: top;
 }

@@ -36,9 +36,11 @@ export function AnimatedText() {
     <div
       ref={ref}
       style={{
-        width: "100vw",
-        height: "100vh",
+        width: "100%",
+        height: "20%",
         display: "flex",
+        position: "fixed",
+        top: 0,
         alignItems: "center",
         justifyContent: "center",
       }}
