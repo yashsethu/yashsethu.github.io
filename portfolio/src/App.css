@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
   margin: 0;
   height: 100vh;
@@ -8,8 +10,39 @@ body {
 }
 
 h1 {
-  font-size: calc(16px + 3vw) !important;
+  font-size: calc(20px + 3vw);
+  font-family: 'Roboto';
   color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.75); 
   position: top;
+}
+
+h2 {
+  font-size: calc(3px + 1vw);
+  font-family: 'Roboto';
+  color: white;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.75); 
+  position: top;
+}
+
+h3 {
+  font-size: calc(1px + 1vw);
+  font-family: 'Roboto';
+  color: white;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.75); 
+  position: top;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: calc(16px + 6vw); 
+  }
+
+  h2 {
+    font-size: calc(3px + 2vw); 
+  }
+
+  h3 {
+    font-size: calc(1px + 2vw);
+  }
 }
